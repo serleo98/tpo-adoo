@@ -9,6 +9,9 @@ public class Postulacion {
 	
 	public Postulacion(Float RemuneracionPret, Date FechaPostulacion, String NombrePostulante) {
 		super();
+		this.setRemuneracionPret(RemuneracionPret);
+		this.setFechaPostulacion(FechaPostulacion);
+		this.setNombrePostulante(NombrePostulante);
 		
 	}
 
